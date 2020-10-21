@@ -1,0 +1,213 @@
+body{
+    background-color: lightgrey;
+}
+
+
+.slogon{
+    font-family: fantasy;
+    margin-left:120px ;
+
+}
+
+.slogon{
+    text-align: center;
+}
+
+.police{
+    text-align: center;
+    font-family: "Edwardian Script ITC";
+    font-size: xx-large;
+}
+.police-meteo{
+    font-family: "Edwardian Script ITC";
+    font-size: x-large;
+    text-align: center;
+}
+.img-arc{
+    height: 200px;
+    width: 300px;
+    margin-left: 70px;
+
+}
+.img-invalid{
+
+    height: 200px;
+    width: 300px;
+    margin-left: 70px;
+
+}
+.img-disney{
+    height: 200px;
+    width: 300px;
+    margin-left: 70px;
+}
+.img-opera{
+    height: 200px;
+    width: 300px;
+    background-color: lightsteelblue;
+
+    margin-left: 70px;
+
+}
+.page-suivante{
+    margin-left: 1300px;
+    font-family: Algerian;
+    border-radius: 200px;
+    background-color: cyan;
+}
+
+
+.background-slogan {
+    margin-top: 20px;
+}
+
+.img-logo {
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+    top: 50px;
+    background-color: white;
+    border-radius: 80px;
+}
+
+
+.slogon {
+    font-family: fantasy;
+    margin-left: 120px;
+}
+
+.page-2 {
+    margin-left: 500px;
+    font-family:Algerian;
+    border-radius: 200px;
+    background-color: rgb(235, 252, 0);
+}
+.page-3{
+    margin-left: 300px;
+    font-family:Algerian;
+    border-radius: 400px;
+    background-color: cyan;
+}
+.accueil {
+    font-family: Algerian;
+    border-radius: 200px;
+    background-color: cyan;
+    margin-left: 50px
+}
+
+.img-1 {
+
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.p-1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Georgia";
+}
+
+.img-2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.p-2 {
+    text-align: center;
+    font-family: "Georgia";
+
+}
+
+.img-3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.p-3 {
+    text-align: center;
+    font-family: "Georgia";
+}
+
+.img-4 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.p-4 {
+    text-align: center;
+    font-family: "Georgia";
+}
+
+.img-5 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.p-5 {
+    text-align: center;
+    font-family: "Georgia";
+}
+
+.img-6 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.p-6 {
+    text-align: center;
+    font-family: "Georgia";
+}
+
+.img-7 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.p-7 {
+    text-align: center;
+    font-family: "Georgia";
+}
+
+.img-8 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.p-8 {
+    text-align: center;
+    font-family: "Georgia";
+
+}
+
+.img-9 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.p-9 {
+
+    text-align: center;
+    font-family: "Georgia";
+}
+
+.img-10 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.p-10 {
+    text-align: center;
+    font-family: "Georgia";
+}
+
+.padding {
+    padding: 50px;
+    background-color: darkgray;
+
+}
+@media (max-width: 812px) {
+   .background-slogan img{
+
+    }
+}
