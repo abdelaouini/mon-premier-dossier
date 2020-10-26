@@ -1,11 +1,19 @@
 body{
     background-color: lightgrey;
 }
+.pp{
+    width: 100%
+}
 
+.ppd{
+    width: 100%;
+    background-color: blue;
+    text-align: center  ;
+}
 
 .slogon{
     font-family: fantasy;
-    margin-left:120px ;
+    border-radius: 100px;
 
 }
 
@@ -27,6 +35,7 @@ body{
     height: 200px;
     width: 300px;
     margin-left: 70px;
+    border-radius: 100px;
 
 }
 .img-invalid{
@@ -34,20 +43,20 @@ body{
     height: 200px;
     width: 300px;
     margin-left: 70px;
-
+    border-radius: 100px;
 }
 .img-disney{
     height: 200px;
     width: 300px;
     margin-left: 70px;
+    border-radius: 100px;
 }
 .img-opera{
     height: 200px;
     width: 300px;
     background-color: lightsteelblue;
-
     margin-left: 70px;
-
+    border-radius: 100px;
 }
 .page-suivante{
     margin-left: 1300px;
@@ -210,4 +219,10 @@ body{
    .background-slogan img{
 
     }
+@media (max-width: 812px) {
+    .img-opera{
+        margin-left: 100px;
+    }
+
+}
 }

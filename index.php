@@ -2,29 +2,68 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="assets/css/style-page-suivante.css">
-   <link rel="stylesheet" href="assets/css/w3.css">
-    <title>Page suivante</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Mini projet</title>
 </head>
 <body>
-<div class="w3-container w3-">
+
+<form action="" method="post">
+    <select name="ville">
+        <option value=""></option>
+        <option value="tu">Tunisie</option>
+        <option value="fr">France</option>
+        <option value="it">Italie</option>
+    </select>
+    <input type="submit" name="buttom" value="valider" >
+</form>
+
+<?php
+
+if ($_SERVER['REQUEST_METHOD'] === "POST"){
+
+    if($_POST['ville'] === "tu"){
+        echo "La capitale de tunisie est Tunis";
+    }
+
+    if($_POST['ville'] === "fr"){
+        echo "La capitale de la france est Paris";
+    }
+    if($_POST['ville'] === "it"){
+        echo "La capitale de l'italie est Rome";
+    }
+}
+
+
+
+
+
+?>
+<div class="background-slogan">
     <img class="img-logo" src="assets/images/logo-paris.png" alt="logo">
     <!--SLOGAN-->
     <p class="slogon" >La France sans Paris, c’est comme un gigot sans moutarde</p>
 </div>
 <div>
-<!---->
-    <a class="accueil" href="index.html">
-    Accueil
-    </a>
-    <a class="page-2" href="page-suivante.html">
-        Page 2</a>
-        <a class="page-3" href="page-2.html">
-            Page 3
-        </a>
-
+    <p class="police" >
+        La ville de Paris comptait 2,187 millions d'habitants au 1er janvier 2020. Ses habitants sont appelés Parisiens.
+        <br>L'agglomération parisienne s’est largement développée au cours du xxe siècle, rassemblant 10,73 millions d'habitants au 1er janvier 2020,
+        <br>et son aire urbaine (l'agglomération et la couronne périurbaine) comptait 12,78 millions d'habitants.
+        <br> L'agglomération parisienne est ainsi la plus peuplée de France, elle est la quatrième du continent européen et la 32e plus peuplée du monde au 1er janvier 2019.
+    </p>
 </div>
-
+<div>
+    <p class="police-meteo" >
+        Le climat de Paris est de type océanique : l'influence océanique est bien plus importante que l'influence continentale et se traduit en 1981-2010 par des étés (1er juin au 31 août) assez chauds (19,7 °C en moyenne),
+        <br> des hivers (1er décembre au 28 février) doux (5,4 °C en moyenne) avec des pluies fréquentes en toute saison et un temps changeant mais avec des pluies plus faibles (637,4 millimètres)
+    </p>
+</div>
+<div >
+    <img class="img-arc" src="assets/images/arc-de-triomphe.jpg" alt="photo arc de triomphe">
+    <img class="img-invalid" src="assets/images/invalid.jpg" alt="photo invalide">
+    <img class="img-disney" src="assets/images/disneyland.jpg" alt="photo disnay land">
+    <img class="img-opera" src="assets/images/opera.jpg" alt="photo opera">
+<!---->
+</div>
 <div class="img-1"> <h1>Fondation Louis Vuitton</h1>
     <img  src="assets/images/louis-vuitton2.jpg" alt="Image">
 </div>
@@ -44,9 +83,9 @@
     </p>
 </div>
 <div class="img-2" > <h1>Atelier des lumières</h1>
-    <img src="assets/images/atelier-des-lumieres.jpg" alt=""><img>
+    <img src="assets/images/atelier-des-lumieres.jpg" alt="">
 </div>
-
+<!---->
 <div class="p-2" >
     <p>
         3 300 m2 d’espace en plein 11e arrondissement, avec un mot d’ordre : l’art numérique.
@@ -158,7 +197,7 @@
     <p>
         Depuis l'arrivée des Qataris et surtout celle de Neymar, le Parc des Princes est devenu l'un des lieux où il fait bon être vu.
         <br> Au-delà du foot, le club a su développer de nombreuses activités dans son enceinte, dont un escape game qui ravira tous les Footix de la capitale.
-
+<!---->
     </p>
 </div>
 <div class="img-10"> <h1>Girafe</h1>
@@ -183,6 +222,6 @@
         <br> Comme dans vos années fac, les toilettes sont sur le palier. Gérez votre timing, et quand vous sortirez, la tour Eiffel brillera. Le bon moment pour une demande en mariage !
     </p>
 </div>
-<div class="padding"></div>
+<!---->
 </body>
 </html>
