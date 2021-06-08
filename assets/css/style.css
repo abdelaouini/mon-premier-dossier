@@ -215,14 +215,13 @@ body{
     background-color: darkgray;
 
 }
-@media (max-width: 812px) {
-   .background-slogan img{
-
-    }
-@media (max-width: 812px) {
-    .img-opera{
-        margin-left: 100px;
-    }
+.img-11{
+  text-align: center;
 
 }
+.p-11{
+    text-align: center;
+}
+.footer{
+    background-color: beige;
 }

@@ -6,38 +6,7 @@
     <title>Mini projet</title>
 </head>
 <body>
-
-<form action="" method="post">
-    <select name="ville">
-        <option value=""></option>
-        <option value="tu">Tunisie</option>
-        <option value="fr">France</option>
-        <option value="it">Italie</option>
-    </select>
-    <input type="submit" name="buttom" value="valider" >
-</form>
-
-<?php
-
-if ($_SERVER['REQUEST_METHOD'] === "POST"){
-
-    if($_POST['ville'] === "tu"){
-        echo "La capitale de tunisie est Tunis";
-    }
-
-    if($_POST['ville'] === "fr"){
-        echo "La capitale de la france est Paris";
-    }
-    if($_POST['ville'] === "it"){
-        echo "La capitale de l'italie est Rome";
-    }
-}
-
-
-
-
-
-?>
+    
 <div class="background-slogan">
     <img class="img-logo" src="assets/images/logo-paris.png" alt="logo">
     <!--SLOGAN-->
@@ -222,6 +191,27 @@ if ($_SERVER['REQUEST_METHOD'] === "POST"){
         <br> Comme dans vos années fac, les toilettes sont sur le palier. Gérez votre timing, et quand vous sortirez, la tour Eiffel brillera. Le bon moment pour une demande en mariage !
     </p>
 </div>
+<div class="img-11"> <h1>Fréquence</h1>
+    <img  src="assets/images/bar.jpg" alt="">
+</div>
+<div class="p-11">
+    <p >
+        Pour qui? Vos potes qui aiment la musique et les bonnes choses (tout le monde quoi)
+        <br> Boire quoi? Un Rougier (baie de la passion, liqueur de yuzu, Cap Corse rouge, Campari, 12 €) à l’amer maîtrisé
+        <br>Ça tient à peu de chose, un chouette endroit. Si Matthieu Biron (passé par Andy Wahloo) et Guillaume Quenza (venu du Sherry Butt) avaient été fanas de badminton,
+        <br> leur lieu aurait été très différent (avec, sans doute, ce filet en plein milieu, pas très pratique).
+        <br> Mais coup de bol, dans notre univers à nous, ils aiment les bons produits et les vinyles de la Motown.
+        <br> Du coup, ils ont monté Fréquence, joli bar en pierres grattées et mobilier scandinave où les platines et les disques piquent la vedette aux bouteilles et aux shakers.
+        <br> Mais ne croyez pas que les verres font de la figuration dans cette carte qui déborde de créations aussi futées qu’affûtées.
+        <br>On commence par un Doud (pignons de pin salés, Cap Corse blanc, shochu, calvados ; 12 €),
+        <br> à la poigne sèche et rassurante du kiné qui va vous décoincer,
+        <br> avant de partir batifoler dans les bois et les fleurs avec le Burows (ananas salé, pineau, verjus, aquafaba ; 12 €).
+        <br> L’amour des bonnes choses se retrouve dans des assiettes voyageuses : caresses de gyozas de bœuf (9 €) ou poulet katsu à l’impec croquant (10 €).
+        <br> Pendant ce temps,
+        <br> le DJ invité mixe avec l’assiduité de l’artisan appliqué des 45 tours de pépites funk pour une foule chaloupante et rigolarde dans une ambiance furieusement cool.
+    </p>
+</div>
+<footer class="footer"></footer>
 <!---->
 </body>
 </html>
